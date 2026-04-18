@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="BrowserLaunch">
+	
+	<!--<packages>
+		<package name="day1.dropdowns"/>
+	</packages>-->
+	<classes>
+	<class name="day_course.Basic_Test"/>
+	</classes>
+	
+</test>
+
+</suite>
