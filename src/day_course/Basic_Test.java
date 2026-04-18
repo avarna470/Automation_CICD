@@ -43,13 +43,14 @@ public class Basic_Test {
 		
 		String browsername= System.getProperty("browser")!=null ? System.getProperty("browser"): prop.getProperty("browser");		
 	
-		
+		//new comments
+System.out.println("HI CICD Jenkins Github");
 		ChromeOptions options=new ChromeOptions();
-		if(browsername.contains("chrome")) {
+		//if(browsername.contains("chrome")) {
 			
-			if(browsername.contains("headless")) {
-			options.addArguments("headless");
-			}
+			//if(browsername.contains("headless")) {
+			//options.addArguments("headless");
+			//}
 			driver=new ChromeDriver(options);
 			Basic_Test.function();
 			
